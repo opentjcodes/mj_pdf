@@ -33,7 +33,7 @@
 | **Dark Mode** | **Reader Menu** | **Share Quotes** |
 | <img src="assets/screenshots/reader_dark.webp" alt="Dark mode" width="250"/> | <img src="assets/screenshots/reader_menu.webp" alt="Reader menu" width="250"/> | <img src="assets/screenshots/quote_share.webp" alt="Share quotes as images" width="250"/> |
 
-More screenshots are in the [MJ PDF Gallery](http://mudlej.com/projects/mj-pdf/supplements/gallery/).
+More screenshots are in the [MJ PDF Gallery](https://mudlej.com/projects/mj-pdf/supplements/gallery/).
 
 ## What's new in 3.1
 Version 3.1 is a correctness and stability release: a few new reading options, much safer saving and backups, and a long list of fixes.
@@ -48,7 +48,7 @@ Version 3.1 is a correctness and stability release: a few new reading options, m
 - The theme toggle stays visible when the PDF theme follows the system, and lets you pick a theme on the spot.
 - Dozens of fixes across search, gestures, backups, rotation, and right to left reading.
 
-The full list is in the [changelog](change_log.md). Coming from 2.x? See what 3.0 added on the [v3.0 release page](http://mudlej.com/projects/mj-pdf/supplements/v3.0.0-release/).
+The full list is in the [changelog](change_log.md). Coming from 2.x? See what 3.0 added on the [v3.0 release page](https://mudlej.com/projects/mj-pdf/supplements/v3.0.0-release/).
 
 ## MJ PDF Features
 
