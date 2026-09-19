@@ -5,8 +5,10 @@
 **MJ PDF** is a fast, simple, powerful and totally private PDF reader made by [Mudlej](https://mudlej.com).
 
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://gitlab.com/mudlej_android/mj_pdf_reader/-/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/Version-3.0.0-2ea44f.svg)](https://gitlab.com/mudlej_android/mj_pdf_reader/-/blob/main/change_log.md)
+[![Version](https://img.shields.io/badge/Version-3.1.0-2ea44f.svg)](https://gitlab.com/mudlej_android/mj_pdf_reader/-/blob/main/change_log.md)
 [![API](https://img.shields.io/badge/API-23%2B-brightgreen.svg)](https://developer.android.com/about/versions/marshmallow)
+[![Google Play](https://img.shields.io/badge/Google_Play-Available-414141?logo=googleplay\&logoColor=white)](https://play.google.com/store/apps/details?id=com.gitlab.mudlej.MjPdfReader)
+[![F-Droid](https://img.shields.io/f-droid/v/com.gitlab.mudlej.MjPdfReader?logo=f-droid\&label=F-Droid)](https://f-droid.org/packages/com.gitlab.mudlej.MjPdfReader/)
 [![IzzyOnDroid](https://img.shields.io/endpoint?url=https://apt.izzysoft.de/fdroid/api/v1/shield/com.gitlab.mudlej.MjPdfReader)](https://apt.izzysoft.de/fdroid/index/apk/com.gitlab.mudlej.MjPdfReader)
 
 </div>
@@ -17,9 +19,7 @@
 
 <br/>
 
-<a href="https://apt.izzysoft.de/fdroid/index/apk/com.gitlab.mudlej.MjPdfReader"><img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/buttons/izzy.png" height="60" alt="Get it on IzzyOnDroid"/></a> <a href="https://mudlej.com/mj-pdf.apk"><img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/buttons/direct_apk.png" height="60" alt="Direct APK download"/></a> <a href="https://gitlab.com/mudlej_android/mj_pdf_reader"><img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/buttons/gitlab.png" height="60" alt="Source code on GitLab"/></a> <a href="https://github.com/mudlej/mj_pdf/"><img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/buttons/github.png" height="60" alt="GitHub mirror"/></a>
-
-<sub>F-Droid main repo and Play Store are not available for now, see the <a href="https://mudlej.com/projects/mj-pdf#faq">FAQ</a>.</sub>
+<a href="https://play.google.com/store/apps/details?id=com.gitlab.mudlej.MjPdfReader"><img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/buttons/google_play.png" height="60" alt="Get it on Google Play"/></a> <a href="https://f-droid.org/packages/com.gitlab.mudlej.MjPdfReader/"><img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/buttons/fdroid.png" height="60" alt="Get it on F-Droid"/></a> <a href="https://apt.izzysoft.de/fdroid/index/apk/com.gitlab.mudlej.MjPdfReader"><img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/buttons/izzy.png" height="60" alt="Get it on IzzyOnDroid"/></a> <a href="https://mudlej.com/mj-pdf.apk"><img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/buttons/direct_apk.png" height="60" alt="Direct APK download"/></a> <a href="https://gitlab.com/mudlej_android/mj_pdf_reader"><img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/buttons/gitlab.png" height="60" alt="Source code on GitLab"/></a> <a href="https://github.com/mudlej/mj_pdf/"><img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/buttons/github.png" height="60" alt="GitHub mirror"/></a>
 
 </div>
 
@@ -31,27 +31,23 @@
 |                                                              **Dark Mode**                                                              |                                                              **Reader Menu**                                                              |                                                                         **Share Quotes**                                                                        |
 | <img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/screenshots/reader_dark.webp" alt="Dark mode" width="250"/> | <img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/screenshots/reader_menu.webp" alt="Reader menu" width="250"/> |       <img src="https://gitlab.com/mudlej_android/mj_pdf_reader/-/raw/main/assets/screenshots/quote_share.webp" alt="Share quotes as images" width="250"/>      |
 
-More screenshots are in the [MJ PDF Gallery](http://mudlej.com/projects/mj-pdf/supplements/gallery/).
+More screenshots are in the [MJ PDF Gallery](https://mudlej.com/projects/mj-pdf/supplements/gallery/).
 
-## What's new in 3.0
+## What's new in 3.1
 
-Check MJ PDF v3.0.0's [**Official Release Page**](http://mudlej.com/projects/mj-pdf/supplements/v3.0.0-release/)
+Version 3.1 is a correctness and stability release: a few new reading options, much safer saving and backups, and a long list of fixes.
 
-Version 3.0 is the biggest update in MJ PDF's history, closer to a rewrite of the app. The short version:
+* Single Page Mode shows one full page per screen and turns pages like a book, with taps on the screen edges flipping the page.
+* Pick a page fit policy: fit pages by width, by height, or show the whole page.
+* One Reading Mode setting gathers continuous, horizontal, single page, and dual page.
+* Search happens without leaving the document, and results wrap around at both ends.
+* Files shared by other apps ask before a copy is kept, or always keep one, your choice.
+* Saving is far safer: every write is verified, failed saves keep a rescue copy, and saved files no longer grow.
+* Documents are identified more reliably, so two similar files never share reading history.
+* The theme toggle stays visible when the PDF theme follows the system, and lets you pick a theme on the spot.
+* Dozens of fixes across search, gestures, backups, rotation, and right to left reading.
 
-* A new Home screen with a library, reading statuses, recent files, and a real folder browser.
-* Highlight text, add notes, and save them into the PDF.
-* Draw handwritten signatures and save them into the PDF.
-* Fill PDF forms.
-* A new Text Mode that reads like an e-book.
-* Turn selected text into a beautiful, shareable quote image.
-* Translate selected text and define words with an offline dictionary.
-* Dual page mode, RTL reading, hide margins, incognito mode.
-* User bookmarks and browser-like navigation history.
-* Backup and restore for your data.
-* Much faster rendering after rebuilding PDFium for speed.
-
-The full list is in the [changelog](https://gitlab.com/mudlej_android/mj_pdf_reader/-/blob/main/change_log.md).
+The full list is in the [changelog](https://gitlab.com/mudlej_android/mj_pdf_reader/-/blob/main/change_log.md). Coming from 2.x? See what 3.0 added on the [v3.0 release page](https://mudlej.com/projects/mj-pdf/supplements/v3.0.0-release/).
 
 ## MJ PDF Features
 
@@ -72,6 +68,7 @@ The full list is in the [changelog](https://gitlab.com/mudlej_android/mj_pdf_rea
 * True full screen with configurable buttons, reading progress, time, and page info.
 * Rotate, brightness bar, auto-scroll with adjustable speed, zoom lock, screenshots.
 * Dual page mode that pairs pages like an open book.
+* Single Page Mode and a page fit policy: by width, by height, or whole page.
 * Hide PDF margins to make the page fill your screen.
 * Right-to-left reading with automatic detection.
 * Open password-protected PDFs and online PDFs through links.
@@ -107,16 +104,18 @@ The full list is in the [changelog](https://gitlab.com/mudlej_android/mj_pdf_rea
 * Open source with total privacy.
 * No data collection, no ads, no tracking.
 * Incognito mode that saves nothing about what you read.
+* Shared files can be kept as private copies so they reopen reliably: always, or ask each time.
 
 ## Permissions and privacy
 
-This app does not collect any data.
-The following permissions are required to provide specific features in the app:
+Your data stay on your device. MJ PDF has no ads or tracking of any kind.
 
-* *Internet*: For opening PDFs through links
-* *Storage / all-files access*: For scanning, opening, and managing the PDFs on your device
+If the app crashes, you can choose to send a technical report to help diagnose it. The report contains a stack trace, app version, crash time, package name, Android version, phone model, logcat, and available memory. It does not include your PDF documents and is **NEVER** sent without your approval.
 
-Exodus privacy reports a tracker in MJ PDF. That is ACRA, the crash reporter, and it does **NOT** send anything unless you explicitly press SEND on the dialog that appears after a crash. Its configuration is [in the code](https://gitlab.com/mudlej_android/mj_pdf_reader/-/blob/main/app/src/main/java/com/gitlab/mudlej/MjPdfReader/App.kt), and there is more detail in the [FAQ](https://mudlej.com/projects/mj-pdf#faq).
+Permissions:
+
+* **Internet**: open PDFs from links and send crash reports only if you approve
+* **All files access**: discover, open, rename, delete, and manage PDFs across device and removable storage
 
 ## How to build
 
@@ -129,7 +128,7 @@ cd mj_pdf_reader
 That is enough for the app itself, since prebuilt native libraries are included.
 
 * To set up a build environment from a fresh Linux install, see [SETUP.md](https://gitlab.com/mudlej_android/mj_pdf_reader/-/blob/main/SETUP.md).
-* To rebuild the native libraries (PDFium, FreeType, libpng, and the JNI bridge), use the scripts in [build_dependencies](https://gitlab.com/mudlej_android/mj_pdf_reader/-/tree/main/build_dependencies). Since 3.0.0, PDFium is built from source and optimized for speed instead of size, which fixed a years-old rendering slowdown.
+* To rebuild the native libraries (PDFium, FreeType, libpng, and the JNI bridge), use the scripts in [build_dependencies](https://gitlab.com/mudlej_android/mj_pdf_reader/-/tree/main/build_dependencies/). Since 3.0.0, PDFium is built from source and optimized for speed instead of size, which fixed a years-old rendering slowdown.
 * After editing `mainJNILib.cpp`, go to `PdfiumAndroid/src/main/jni` and run `ndk-build`. Every future build will use the generated libs.
 
 The repository is three modules:
